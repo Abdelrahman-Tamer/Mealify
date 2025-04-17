@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 90px;
 }
 
 h2 {
@@ -578,7 +579,7 @@ ul {
 }
 
 /* Footer Section */
-.layer{
+.layer {
   position: absolute;
   top: 0;
   left: 0;
@@ -749,10 +750,10 @@ footer .container .quick-links {
   align-items: flex-start;
   gap: 10px 30px;
 }
-footer .container .quick-links .links-1{
+footer .container .quick-links .links-1 {
   width: 50%;
 }
-footer .container .quick-links .links-2{
+footer .container .quick-links .links-2 {
   width: 50%;
 }
 footer .container .quick-links li {
