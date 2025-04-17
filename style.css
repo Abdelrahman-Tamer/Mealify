@@ -247,7 +247,9 @@ ul {
   align-items: center;
   gap: 20px;
 }
-
+.Chefs .container .chefs-card .card h3{
+ color: #000;
+}
 .Chefs .container .chefs-card .card {
   width: 33.333%;
   margin: 0 20px;
@@ -277,11 +279,21 @@ ul {
   transition: all 0.5s ease-in-out;
   transition-delay: 0.3s;
 }
+.Chefs .container .chefs-card .card .card-img{
+  position: relative;
+
+}
+.Chefs .container .chefs-card .card .card-img svg{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 .Chefs .container .chefs-card .card .icons-layer a {
   text-decoration: none;
   font-size: 18px;
-  color: rgba(128, 128, 128, 0.8);
+  color: rgb(0, 0, 0,0.6);
   transition: all 0.1s ease;
 }
 
@@ -295,7 +307,7 @@ ul {
   background-color: rgba(128, 128, 128, 0.2);
 }
 
-.Chefs .container .chefs-card .card img {
+.Chefs .container .chefs-card .card .card-img img {
   max-width: 100%;
   object-fit: cover;
   background-position: center;
@@ -716,15 +728,18 @@ footer .container .subscribe form {
 }
 footer .container .subscribe form input {
   width: 80%;
-  padding: 10px;
+  padding: 11px;
   border: none;
 }
 footer .container .subscribe form input:focus {
   outline: none;
 }
 footer .container .subscribe form button {
-  width: 20%;
-  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
   background-color: red;
   color: #fff;
   border: none;
@@ -739,7 +754,7 @@ footer .container .subscribe form button::before {
   font-family: "Font Awesome 5 Free";
   font-size: 18px;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 3px;
   color: #fff;
 }
 
